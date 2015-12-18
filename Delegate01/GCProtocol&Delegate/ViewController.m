@@ -2,8 +2,8 @@
 //  ViewController.m
 //  GCProtocol&Delegate
 //
-//  Created by baijiawei on 1/8/15.
-//  Copyright (c) 2015 1147626297@qq.com. All rights reserved.
+//  Created by chenyufeng on 1/8/15.
+//  Copyright (c) 2015 chenyufengweb. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -17,10 +17,10 @@
 
 @implementation ViewController
 
+//因为是基于storyboard的segue来构建，当界面跳转时，自动回调该方法；
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     ViewControllerB *vc = segue.destinationViewController;
     [vc setDelegate:self];
-
 
 }
 
@@ -30,6 +30,7 @@
     [alertView show];
 }
 
+//该方法是ProtocolDelegate中的@required方法；
 - (void)execute{
     
 }
