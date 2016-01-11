@@ -353,6 +353,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "task.bjw.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "GCProtocol&Delegate";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 			};
 			name = Debug;
 		};
@@ -364,6 +365,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "task.bjw.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "GCProtocol&Delegate";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 			};
 			name = Release;
 		};
